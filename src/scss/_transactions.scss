@@ -1,0 +1,114 @@
+.transactions {
+  padding: 65px 0;
+
+  @media (max-width: $breakpoint992) {
+    padding: 30px 0;
+  }
+
+
+  // .transactions__inner
+
+  &__inner {}
+
+  // .transactions__title
+
+  &__title {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: var(--primary-color);
+
+    @media (max-width: $breakpoint480) {
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 20px;
+    }
+  }
+
+  // .transactions__list
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px 20px;
+
+    @media (max-width: $breakpoint992) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  // .transactions__item
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 25px;
+    background-color: var(--bg-card);
+    border: 1px solid var(--primary-color);
+    border-radius: 15px;
+
+    @media (max-width: $breakpoint480) {
+      flex-direction: column;
+      gap: 20px;
+      padding: 10px 15px;
+    }
+  }
+
+  // .transactions__time
+
+  &__time {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.72);
+  }
+
+  // .transactions__info
+
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    color: var(--text-color);
+
+    @media (max-width: $breakpoint480) {
+      font-size: 16px;
+    }
+  }
+
+  // .transactions__eth
+
+  &__eth {
+    display: flex;
+    align-items: center;
+  }
+
+  // .transactions__sum
+
+  &__sum {}
+
+  // .transactions__eth-icon
+
+  &__eth-icon {}
+
+  // .transactions__arrow
+
+  &__arrow {}
+
+  // .transactions__btc
+
+  &__btc {
+    display: flex;
+    align-items: center;
+  }
+
+  // .transactions__btc-icon
+
+  &__btc-icon {}
+}

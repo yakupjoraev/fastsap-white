@@ -1,0 +1,138 @@
+// Footer
+.footer {
+  padding: 65px 0;
+
+  @media (max-width: $breakpoint992) {
+    padding: 30px 0;
+  }
+
+  // .footer__inner
+
+  &__inner {
+    display: flex;
+    align-items: flex-start;
+
+    @media (max-width:560px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+    }
+  }
+
+  // .footer__links
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  // .footer__logo
+
+  &__logo {
+    @media (max-width:560px) {
+      text-align: center;
+    }
+  }
+
+  // .footer__logo-img
+
+  &__logo-img {}
+
+  // .footer__socials
+
+  &__socials {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  // .footer__social
+
+  &__social {}
+
+  // .footer__social-img
+
+  &__social-img {
+
+    &:hover {
+      filter: drop-shadow(0px 0px 6px pink);
+    }
+  }
+
+  // .footer__copy
+
+  &__copy {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+
+  // .footer__menus
+
+  &__menus {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 350px;
+
+    @media (max-width: $breakpoint992) {
+      margin-left: 100px;
+    }
+
+    @media (max-width: $breakpoint768) {
+      margin-left: 50px;
+    }
+
+    @media (max-width:560px) {
+      margin-left: 0;
+      flex-wrap: wrap;
+      // gap: 30px;
+    }
+  }
+
+  // .footer__menu
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  // .footer__item
+
+  &__item {}
+
+  // .footer__menu-title
+
+  &__menu-title {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: var(--text-color);
+
+    @media (max-width: $breakpoint768) {
+      font-size: 20px;
+    }
+  }
+
+  // .footer__item-link
+
+  &__item-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.87);
+    transition: color 0.2s linear;
+
+    &:hover {
+      color: var(--primary-color);
+    }
+
+    @media (max-width: $breakpoint768) {
+      font-size: 17px;
+    }
+  }
+}
