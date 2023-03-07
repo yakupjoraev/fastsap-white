@@ -23,9 +23,9 @@
         </div>
         <ul class="menu">
           <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Swap</a></li>
-          <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>About</a></li>
-          <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Reviews</a></li>
+          <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Statitics</a></li>
           <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Transactions</a></li>
+          <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>News</a></li>
           <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>FAQ</a></li>
         </ul>
         <div class="burger">
@@ -41,19 +41,80 @@
     <section class="fast">
   <div class="container">
     <div class="fast__inner">
-      <h1 class="fast__title">
-        <b>Sell and swap your cryptocurrency at<br> the speed of light using Fastswap</b>
-      </h1>
 
       <div class="fast__exchanger exchanger">
         <div class="exchanger__main">
+          <div class="exchanger__get">
+            <p class="exchanger__label">
+              <b>You get</b>
+            </p>
+
+            <div class="exchanger__get-enter">
+              <input class="exchanger__get-input" type="number" value="1">
+
+              <!-- Select -->
+              <div class="exchange__select-container">
+                <div class="exchanger__select">
+                  <div class="option">
+                    <label class="option__label">
+                      <img class="option__img" src="./img/fast-eth.png" alt="eth">
+                      <p class="option__text">ETH</p>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="option-container">
+                  <div class="option">
+                    <label class="option__label">
+                      <img class="option__img" src="./img/fast-eth.png" alt="eth">
+                      <p class="option__text">ETH</p>
+                    </label>
+                  </div>
+                  <div class="option">
+                    <label class="option__label">
+                      <img class="option__img" src="./img/fast-eth.png" alt="eth">
+                      <p class="option__text">ETH</p>
+                    </label>
+                  </div>
+                  <div class="option">
+                    <label class="option__label">
+                      <img class="option__img" src="./img/fast-eth.png" alt="eth">
+                      <p class="option__text">ETH</p>
+                    </label>
+                  </div>
+                  <div class="option">
+                    <label class="option__label">
+                      <img class="option__img" src="./img/fast-eth.png" alt="eth">
+                      <p class="option__text">ETH</p>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="exchanger__info">
+              <p class="exchanger__info">
+                1 ETH ≈ 0.06934994 BTC
+              </p>
+
+              <p class="exchanger__info">
+                1564$
+              </p>
+            </div>
+          </div>
+
+
+          <div class="exchanger__reverse">
+            <img class="exchanger__reverse-img" src="./img/exchanger-reverse.svg" alt="fast reverse">
+          </div>
+
           <div class="exchanger__send">
             <p class="exchanger__label">
               <b>You Send</b>
             </p>
 
             <div class="exchanger__send-enter">
-              <input class="exchanger__send-input" type="number" value="0.1">
+              <input class="exchanger__send-input" type="number" value="0.06916295">
 
               <!-- Select -->
               <div class="exchange__select-container">
@@ -101,281 +162,112 @@
               </p>
 
               <p class="exchanger__info">
-                $2 236.8
+                Reserve: 325000$
               </p>
             </div>
           </div>
 
-          <div class="exchanger__reverse">
-            <img class="exchanger__reverse-img" src="./img/exchanger-reverse.svg" alt="fast reverse">
-          </div>
-
-          <div class="exchanger__get">
-            <p class="exchanger__label">
-              <b>You get</b>
-            </p>
-
-            <div class="exchanger__get-enter">
-              <input class="exchanger__get-input" type="number" value="0.1">
-
-              <!-- Select -->
-              <div class="exchange__select-container">
-                <div class="exchanger__select">
-                  <div class="option">
-                    <label class="option__label">
-                      <img class="option__img" src="./img/fast-eth.png" alt="eth">
-                      <p class="option__text">ETH</p>
-                    </label>
-                  </div>
-                </div>
-
-                <div class="option-container">
-                  <div class="option">
-                    <label class="option__label">
-                      <img class="option__img" src="./img/fast-eth.png" alt="eth">
-                      <p class="option__text">ETH</p>
-                    </label>
-                  </div>
-                  <div class="option">
-                    <label class="option__label">
-                      <img class="option__img" src="./img/fast-eth.png" alt="eth">
-                      <p class="option__text">ETH</p>
-                    </label>
-                  </div>
-                  <div class="option">
-                    <label class="option__label">
-                      <img class="option__img" src="./img/fast-eth.png" alt="eth">
-                      <p class="option__text">ETH</p>
-                    </label>
-                  </div>
-                  <div class="option">
-                    <label class="option__label">
-                      <img class="option__img" src="./img/fast-btc.png" alt="btc">
-                      <p class="option__text">ETH</p>
-                    </label>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="exchanger__info">
-              <p class="exchanger__info">
-                1 ETH ≈ 0.06934994 BTC
-              </p>
-
-              <p class="exchanger__info">
-                Reserve: 850 124
-              </p>
-            </div>
-          </div>
         </div>
 
         <button type="button" class="exchanger__btn">Connect Wallet</button>
       </div>
 
-      <div class="fast__firms">
-        <img class="fast__firm-img" src="./img/fast-firm-1.svg" alt="fast firm">
-        <img class="fast__firm-img" src="./img/fast-firm-2.svg" alt="fast firm">
-        <img class="fast__firm-img" src="./img/fast-firm-3.svg" alt="fast firm">
+      <div class="fast__info">
+        <h1 class="fast__title">
+          <b>Swap your crypto at the speed of light without fee</b>
+        </h1>
+
+        <p class="fast__descr">
+          FastSwap gives you the opportunity to swap at the most profitable rates
+        </p>
+
+        <div class="fast__firms">
+          <img class="fast__firm-img" src="./img/fast-firm-1.svg" alt="fast firm">
+          <img class="fast__firm-img" src="./img/fast-firm-2.svg" alt="fast firm">
+          <img class="fast__firm-img" src="./img/fast-firm-3.svg" alt="fast firm">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <section class="start" id="start">
+  <div class="container">
+    <div class="start__inner">
+      <div class="start__logos">
+        <a class="start__logo-link" href="#">
+          <img class="start__logo-img" src="./img/metamask.svg" alt="metamask">
+        </a>
+
+        <a class="start__logo-link" href="#">
+          <img class="start__logo-img" src="./img/Trust.svg" alt="Trust">
+        </a>
+
+        <a class="start__logo-link" href="#">
+          <img class="start__logo-img" src="./img/Wallet-Connect.svg" alt="Wallet-Connect">
+        </a>
+
+        <a class="start__logo-link" href="#">
+          <img class="start__logo-img" src="./img/safepal.svg" alt="safepal">
+        </a>
+
+        <a class="start__logo-link" href="#">
+          <img class="start__logo-img" src="./img/Exodus-Wallet.svg" alt="Exodus-Wallet">
+        </a>
       </div>
     </div>
   </div>
 </section>
-    <section class="why">
+    <section class="today">
   <div class="container">
-    <div class="why__inner">
-      <h2 class="why__title">
-        Why should you choose us?
+    <div class="today__inner">
+      <h2 class="today__title">
+        Today’s Statistics
       </h2>
 
-      <div class="why__blocks">
-        <div class="why__top">
-          <div class="why__block">
-            <img class="why__block-icon" src="./img/why/why-1.svg" alt="No KYC">
+      <ul class="today__list">
+        <li class="today__item">
+          <img class="today__item-img" src="./img/today/today-1.svg" alt="Today’s Statistics">
+          <h4 class="today__item-label">
+            2387
+          </h4>
 
-            <h4 class="why__block-title">
-              <b>No KYC</b>
-            </h4>
-
-            <p class="why__block-descr">
-              KYC is not required on our exchange
-            </p>
-          </div>
-
-          <div class="why__block">
-            <img class="why__block-icon" src="./img/why/why-2.svg" alt="Secure exchange">
-
-            <h4 class="why__block-title">
-              <b>Secure exchange</b>
-            </h4>
-
-            <p class="why__block-descr">
-              Absolutely all transactions on our platform are safe, we act as a guarantor in many thematic forums
-            </p>
-          </div>
-
-          <div class="why__block">
-            <img class="why__block-icon" src="./img/why/why-3.svg" alt="No fee">
-
-            <h4 class="why__block-title">
-              <b>No fee</b>
-            </h4>
-
-            <p class="why__block-descr">
-              The fee for the exchange on our platform = 0.00$
-            </p>
-          </div>
-        </div>
-        <div class="why__bottom">
-
-          <div class="why__block">
-            <img class="why__block-icon" src="./img/why/why-4.svg" alt="Instant exchange">
-
-            <h4 class="why__block-title">
-              <b>Instant exchange</b>
-            </h4>
-
-            <p class="why__block-descr">
-              Speed is our main advantage. All applications are processed automatically within 5 minutes
-            </p>
-          </div>
-
-          <div class="why__block">
-            <img class="why__block-icon" src="./img/why/why-5.svg" alt="Support for different wallets">
-
-            <h4 class="why__block-title">
-              <b>Support for different wallets</b>
-            </h4>
-
-            <p class="why__block-descr">
-              You can connect more than 100 wallets to our site, including the most popular ones: Netmask, Trust Wallet,
-              Exodus, etc.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-    <section class="reviews">
-  <div class="container">
-    <div class="reviews__inner">
-      <h3 class="reviews__title">
-        <b>Top reviews</b>
-      </h3>
-
-      <ul class="reviews__list">
-        <li class="reviews__item" data-reviews-item>
-          <div class="reviews__item-header">
-            <img class="reviews__item-icon" src="./img/reviews/reviews-1.png" alt="Exodus Wallet">
-
-            <h4 class="reviews__item-title">
-              <b>Exodus Wallet</b>
-            </h4>
-          </div>
-
-          <div class="reviews__item-descr">
-            FastSwap has helped make Exodus one of the best places to quickly and securely exchange thousands of
-            cryptocurrency pairs<span class="reviews__item-dots" data-rewiews-dots>...</span><span
-              class="reviews__item-more" data-reviews-more> We
-              share a customer-first
-              approach and
-              together have built an exchange experience that
-              is frictionless for newcomers and crypto pros alike.</span>
-
-          </div>
-
-          <button class="reviews__item-btn" data-reviews-btn>Read more
-            <svg width="21" height="8" viewBox="0 0 21 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M20.3536 4.35356C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464468C16.9763 0.269205 16.6597 0.269205 16.4645 0.464468C16.2692 0.65973 16.2692 0.976312 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53554C16.6597 7.7308 16.9763 7.7308 17.1716 7.53554L20.3536 4.35356ZM-4.37114e-08 4.5L20 4.5L20 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z"
-                fill="#9C27B0" fill-opacity="0.69" />
-            </svg>
-
-          </button>
-
-          <button class="reviews__item-btn--up" data-reviews-btn>Roll up
-            <svg width="21" height="8" viewBox="0 0 21 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M0.646446 4.35356C0.451185 4.15829 0.451185 3.84171 0.646446 3.64645L3.82843 0.464468C4.02369 0.269205 4.34027 0.269205 4.53553 0.464468C4.7308 0.65973 4.7308 0.976312 4.53553 1.17157L1.70711 4L4.53553 6.82843C4.7308 7.02369 4.7308 7.34027 4.53553 7.53554C4.34027 7.7308 4.02369 7.7308 3.82843 7.53554L0.646446 4.35356ZM21 4.5L1 4.5L1 3.5L21 3.5L21 4.5Z"
-                fill="#9C27B0" fill-opacity="0.69" />
-            </svg>
-          </button>
+          <p class="today__item-descr">
+            Transactions Made
+          </p>
         </li>
 
-        <li class="reviews__item" data-reviews-item>
-          <div class="reviews__item-header">
-            <img class="reviews__item-icon" src="./img/reviews/reviews-2.png" alt="TRON">
+        <li class="today__item">
+          <img class="today__item-img" src="./img/today/today-2.svg" alt="Today’s Statistics">
+          <h4 class="today__item-label">
+            BTC-TRC20
+          </h4>
 
-            <h4 class="reviews__item-title">
-              <b>TRON</b>
-            </h4>
-          </div>
-
-          <div class="reviews__item-descr">
-            FastSwap brings easy and instant cryptocurrency exchange to everyone. With an intuitive UI and upper echelon
-            customer support<span class="reviews__item-dots" data-rewiews-dots>...</span><span
-              class="reviews__item-more" data-reviews-more>, we
-              highly recommend their
-              platform for
-              transacting TRX.</span>
-
-          </div>
-
-
-          <button class="reviews__item-btn" data-reviews-btn>Read more
-
-            <svg width="21" height="8" viewBox="0 0 21 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M20.3536 4.35356C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464468C16.9763 0.269205 16.6597 0.269205 16.4645 0.464468C16.2692 0.65973 16.2692 0.976312 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53554C16.6597 7.7308 16.9763 7.7308 17.1716 7.53554L20.3536 4.35356ZM-4.37114e-08 4.5L20 4.5L20 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z"
-                fill="#9C27B0" fill-opacity="0.69" />
-            </svg>
-
-          </button>
-
-          <button class="reviews__item-btn--up" data-reviews-btn>Roll up
-            <svg width="21" height="8" viewBox="0 0 21 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M0.646446 4.35356C0.451185 4.15829 0.451185 3.84171 0.646446 3.64645L3.82843 0.464468C4.02369 0.269205 4.34027 0.269205 4.53553 0.464468C4.7308 0.65973 4.7308 0.976312 4.53553 1.17157L1.70711 4L4.53553 6.82843C4.7308 7.02369 4.7308 7.34027 4.53553 7.53554C4.34027 7.7308 4.02369 7.7308 3.82843 7.53554L0.646446 4.35356ZM21 4.5L1 4.5L1 3.5L21 3.5L21 4.5Z"
-                fill="#9C27B0" fill-opacity="0.69" />
-            </svg>
-          </button>
+          <p class="today__item-descr">
+            Today’s champion pair
+          </p>
         </li>
 
-        <li class="reviews__item" data-reviews-item>
-          <div class="reviews__item-header">
-            <img class="reviews__item-icon" src="./img/reviews/reviews-3.png" alt="CoolBitX">
+        <li class="today__item">
+          <img class="today__item-img" src="./img/today/today-3.svg" alt="Today’s Statistics">
+          <h4 class="today__item-label">
+            10 MINS
+          </h4>
 
-            <h4 class="reviews__item-title">
-              <b> CoolBitX</b>
-            </h4>
-          </div>
+          <p class="today__item-descr">
+            Average processing time
+          </p>
+        </li>
 
-          <div class="reviews__item-descr">
-            We’re proud to bring the convenience of FastSwap’s crypto exchange platform to CoolWallet S. This
-            partnership allows our<span class="reviews__item-dots" data-rewiews-dots>...</span><span
-              class="reviews__item-more" data-reviews-more>
-              customers to enjoy secure
-              and hassle-free exchanges all within our hardware wallet at
-              the most competitive rates.</span>
-          </div>
+        <li class="today__item">
+          <img class="today__item-img" src="./img/today/today-4.svg" alt="Today’s Statistics">
+          <h4 class="today__item-label">
+            8617
+          </h4>
 
-          <button class="reviews__item-btn" data-reviews-btn>Read more
-            <svg width="21" height="8" viewBox="0 0 21 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M20.3536 4.35356C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464468C16.9763 0.269205 16.6597 0.269205 16.4645 0.464468C16.2692 0.65973 16.2692 0.976312 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53554C16.6597 7.7308 16.9763 7.7308 17.1716 7.53554L20.3536 4.35356ZM-4.37114e-08 4.5L20 4.5L20 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z"
-                fill="#9C27B0" fill-opacity="0.69" />
-            </svg>
-
-          </button>
-
-          <button class="reviews__item-btn--up" data-reviews-btn>Roll up
-            <svg width="21" height="8" viewBox="0 0 21 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M0.646446 4.35356C0.451185 4.15829 0.451185 3.84171 0.646446 3.64645L3.82843 0.464468C4.02369 0.269205 4.34027 0.269205 4.53553 0.464468C4.7308 0.65973 4.7308 0.976312 4.53553 1.17157L1.70711 4L4.53553 6.82843C4.7308 7.02369 4.7308 7.34027 4.53553 7.53554C4.34027 7.7308 4.02369 7.7308 3.82843 7.53554L0.646446 4.35356ZM21 4.5L1 4.5L1 3.5L21 3.5L21 4.5Z"
-                fill="#9C27B0" fill-opacity="0.69" />
-            </svg>
-          </button>
+          <p class="today__item-descr">
+            Visits today
+          </p>
         </li>
       </ul>
     </div>
@@ -397,7 +289,7 @@
           <div class="transactions__info">
             <div class="transactions__eth">
               <div class="transactions__sum">
-                <b>1 ETH</b>
+                1 ETH
               </div>
 
               <img class="transactions__eth-icon" src="./img/Ethereum.svg" alt="Ethereum">
@@ -407,8 +299,16 @@
               <svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M30.8839 10.8839C31.372 10.3957 31.372 9.60427 30.8839 9.11612L22.9289 1.16117C22.4408 0.67301 21.6493 0.67301 21.1612 1.16117C20.673 1.64932 20.673 2.44078 21.1612 2.92893L28.2322 10L21.1612 17.0711C20.673 17.5592 20.673 18.3507 21.1612 18.8388C21.6493 19.327 22.4408 19.327 22.9289 18.8388L30.8839 10.8839ZM0 11.25H30V8.75H0V11.25Z"
-                  fill="#9C27B0" />
+                  fill="url(#paint0_linear_1_2386)" />
+                <defs>
+                  <linearGradient id="paint0_linear_1_2386" x1="31" y1="18.5" x2="-2.5" y2="-0.999992"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#6EACFE" />
+                    <stop offset="1" stop-color="#AF53FF" />
+                  </linearGradient>
+                </defs>
               </svg>
+
 
             </div>
 
@@ -416,7 +316,7 @@
               <img class="transactions__btc-icon" src="./img/Bitcoin.svg" alt="Bitcoin">
 
               <div class="transactions__sum">
-                <b>0.07 BTC</b>
+                0.07 BTC
               </div>
             </div>
           </div>
@@ -430,7 +330,7 @@
           <div class="transactions__info">
             <div class="transactions__eth">
               <div class="transactions__sum">
-                <b>1 ETH</b>
+                1 ETH
               </div>
 
               <img class="transactions__eth-icon" src="./img/Ethereum.svg" alt="Ethereum">
@@ -440,7 +340,14 @@
               <svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M30.8839 10.8839C31.372 10.3957 31.372 9.60427 30.8839 9.11612L22.9289 1.16117C22.4408 0.67301 21.6493 0.67301 21.1612 1.16117C20.673 1.64932 20.673 2.44078 21.1612 2.92893L28.2322 10L21.1612 17.0711C20.673 17.5592 20.673 18.3507 21.1612 18.8388C21.6493 19.327 22.4408 19.327 22.9289 18.8388L30.8839 10.8839ZM0 11.25H30V8.75H0V11.25Z"
-                  fill="#9C27B0" />
+                  fill="url(#paint0_linear_1_2386)" />
+                <defs>
+                  <linearGradient id="paint0_linear_1_2386" x1="31" y1="18.5" x2="-2.5" y2="-0.999992"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#6EACFE" />
+                    <stop offset="1" stop-color="#AF53FF" />
+                  </linearGradient>
+                </defs>
               </svg>
 
             </div>
@@ -449,7 +356,7 @@
               <img class="transactions__btc-icon" src="./img/Bitcoin.svg" alt="Bitcoin">
 
               <div class="transactions__sum">
-                <b>0.07 BTC</b>
+                0.07 BTC
               </div>
             </div>
           </div>
@@ -463,7 +370,7 @@
           <div class="transactions__info">
             <div class="transactions__eth">
               <div class="transactions__sum">
-                <b>1 ETH</b>
+                1 ETH
               </div>
 
               <img class="transactions__eth-icon" src="./img/Ethereum.svg" alt="Ethereum">
@@ -473,8 +380,16 @@
               <svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M30.8839 10.8839C31.372 10.3957 31.372 9.60427 30.8839 9.11612L22.9289 1.16117C22.4408 0.67301 21.6493 0.67301 21.1612 1.16117C20.673 1.64932 20.673 2.44078 21.1612 2.92893L28.2322 10L21.1612 17.0711C20.673 17.5592 20.673 18.3507 21.1612 18.8388C21.6493 19.327 22.4408 19.327 22.9289 18.8388L30.8839 10.8839ZM0 11.25H30V8.75H0V11.25Z"
-                  fill="#9C27B0" />
+                  fill="url(#paint0_linear_1_2386)" />
+                <defs>
+                  <linearGradient id="paint0_linear_1_2386" x1="31" y1="18.5" x2="-2.5" y2="-0.999992"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#6EACFE" />
+                    <stop offset="1" stop-color="#AF53FF" />
+                  </linearGradient>
+                </defs>
               </svg>
+
 
             </div>
 
@@ -482,7 +397,7 @@
               <img class="transactions__btc-icon" src="./img/Bitcoin.svg" alt="Bitcoin">
 
               <div class="transactions__sum">
-                <b>0.07 BTC</b>
+                0.07 BTC
               </div>
             </div>
           </div>
@@ -496,7 +411,7 @@
           <div class="transactions__info">
             <div class="transactions__eth">
               <div class="transactions__sum">
-                <b>1 ETH</b>
+                1 ETH
               </div>
 
               <img class="transactions__eth-icon" src="./img/Ethereum.svg" alt="Ethereum">
@@ -506,7 +421,14 @@
               <svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M30.8839 10.8839C31.372 10.3957 31.372 9.60427 30.8839 9.11612L22.9289 1.16117C22.4408 0.67301 21.6493 0.67301 21.1612 1.16117C20.673 1.64932 20.673 2.44078 21.1612 2.92893L28.2322 10L21.1612 17.0711C20.673 17.5592 20.673 18.3507 21.1612 18.8388C21.6493 19.327 22.4408 19.327 22.9289 18.8388L30.8839 10.8839ZM0 11.25H30V8.75H0V11.25Z"
-                  fill="#9C27B0" />
+                  fill="url(#paint0_linear_1_2386)" />
+                <defs>
+                  <linearGradient id="paint0_linear_1_2386" x1="31" y1="18.5" x2="-2.5" y2="-0.999992"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#6EACFE" />
+                    <stop offset="1" stop-color="#AF53FF" />
+                  </linearGradient>
+                </defs>
               </svg>
 
             </div>
@@ -515,7 +437,7 @@
               <img class="transactions__btc-icon" src="./img/Bitcoin.svg" alt="Bitcoin">
 
               <div class="transactions__sum">
-                <b>0.07 BTC</b>
+                0.07 BTC
               </div>
             </div>
           </div>
@@ -529,7 +451,7 @@
           <div class="transactions__info">
             <div class="transactions__eth">
               <div class="transactions__sum">
-                <b>1 ETH</b>
+                1 ETH
               </div>
 
               <img class="transactions__eth-icon" src="./img/Ethereum.svg" alt="Ethereum">
@@ -539,7 +461,14 @@
               <svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M30.8839 10.8839C31.372 10.3957 31.372 9.60427 30.8839 9.11612L22.9289 1.16117C22.4408 0.67301 21.6493 0.67301 21.1612 1.16117C20.673 1.64932 20.673 2.44078 21.1612 2.92893L28.2322 10L21.1612 17.0711C20.673 17.5592 20.673 18.3507 21.1612 18.8388C21.6493 19.327 22.4408 19.327 22.9289 18.8388L30.8839 10.8839ZM0 11.25H30V8.75H0V11.25Z"
-                  fill="#9C27B0" />
+                  fill="url(#paint0_linear_1_2386)" />
+                <defs>
+                  <linearGradient id="paint0_linear_1_2386" x1="31" y1="18.5" x2="-2.5" y2="-0.999992"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#6EACFE" />
+                    <stop offset="1" stop-color="#AF53FF" />
+                  </linearGradient>
+                </defs>
               </svg>
 
             </div>
@@ -548,7 +477,7 @@
               <img class="transactions__btc-icon" src="./img/Bitcoin.svg" alt="Bitcoin">
 
               <div class="transactions__sum">
-                <b>0.07 BTC</b>
+                0.07 BTC
               </div>
             </div>
           </div>
@@ -562,7 +491,7 @@
           <div class="transactions__info">
             <div class="transactions__eth">
               <div class="transactions__sum">
-                <b>1 ETH</b>
+                1 ETH
               </div>
 
               <img class="transactions__eth-icon" src="./img/Ethereum.svg" alt="Ethereum">
@@ -572,7 +501,14 @@
               <svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M30.8839 10.8839C31.372 10.3957 31.372 9.60427 30.8839 9.11612L22.9289 1.16117C22.4408 0.67301 21.6493 0.67301 21.1612 1.16117C20.673 1.64932 20.673 2.44078 21.1612 2.92893L28.2322 10L21.1612 17.0711C20.673 17.5592 20.673 18.3507 21.1612 18.8388C21.6493 19.327 22.4408 19.327 22.9289 18.8388L30.8839 10.8839ZM0 11.25H30V8.75H0V11.25Z"
-                  fill="#9C27B0" />
+                  fill="url(#paint0_linear_1_2386)" />
+                <defs>
+                  <linearGradient id="paint0_linear_1_2386" x1="31" y1="18.5" x2="-2.5" y2="-0.999992"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#6EACFE" />
+                    <stop offset="1" stop-color="#AF53FF" />
+                  </linearGradient>
+                </defs>
               </svg>
 
             </div>
@@ -581,7 +517,7 @@
               <img class="transactions__btc-icon" src="./img/Bitcoin.svg" alt="Bitcoin">
 
               <div class="transactions__sum">
-                <b>0.07 BTC</b>
+                0.07 BTC
               </div>
             </div>
           </div>
@@ -595,7 +531,7 @@
           <div class="transactions__info">
             <div class="transactions__eth">
               <div class="transactions__sum">
-                <b>1 ETH</b>
+                1 ETH
               </div>
 
               <img class="transactions__eth-icon" src="./img/Ethereum.svg" alt="Ethereum">
@@ -605,7 +541,14 @@
               <svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M30.8839 10.8839C31.372 10.3957 31.372 9.60427 30.8839 9.11612L22.9289 1.16117C22.4408 0.67301 21.6493 0.67301 21.1612 1.16117C20.673 1.64932 20.673 2.44078 21.1612 2.92893L28.2322 10L21.1612 17.0711C20.673 17.5592 20.673 18.3507 21.1612 18.8388C21.6493 19.327 22.4408 19.327 22.9289 18.8388L30.8839 10.8839ZM0 11.25H30V8.75H0V11.25Z"
-                  fill="#9C27B0" />
+                  fill="url(#paint0_linear_1_2386)" />
+                <defs>
+                  <linearGradient id="paint0_linear_1_2386" x1="31" y1="18.5" x2="-2.5" y2="-0.999992"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#6EACFE" />
+                    <stop offset="1" stop-color="#AF53FF" />
+                  </linearGradient>
+                </defs>
               </svg>
 
             </div>
@@ -614,7 +557,7 @@
               <img class="transactions__btc-icon" src="./img/Bitcoin.svg" alt="Bitcoin">
 
               <div class="transactions__sum">
-                <b>0.07 BTC</b>
+                0.07 BTC
               </div>
             </div>
           </div>
@@ -628,7 +571,7 @@
           <div class="transactions__info">
             <div class="transactions__eth">
               <div class="transactions__sum">
-                <b>1 ETH</b>
+                1 ETH
               </div>
 
               <img class="transactions__eth-icon" src="./img/Ethereum.svg" alt="Ethereum">
@@ -638,7 +581,14 @@
               <svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M30.8839 10.8839C31.372 10.3957 31.372 9.60427 30.8839 9.11612L22.9289 1.16117C22.4408 0.67301 21.6493 0.67301 21.1612 1.16117C20.673 1.64932 20.673 2.44078 21.1612 2.92893L28.2322 10L21.1612 17.0711C20.673 17.5592 20.673 18.3507 21.1612 18.8388C21.6493 19.327 22.4408 19.327 22.9289 18.8388L30.8839 10.8839ZM0 11.25H30V8.75H0V11.25Z"
-                  fill="#9C27B0" />
+                  fill="url(#paint0_linear_1_2386)" />
+                <defs>
+                  <linearGradient id="paint0_linear_1_2386" x1="31" y1="18.5" x2="-2.5" y2="-0.999992"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#6EACFE" />
+                    <stop offset="1" stop-color="#AF53FF" />
+                  </linearGradient>
+                </defs>
               </svg>
 
             </div>
@@ -647,7 +597,7 @@
               <img class="transactions__btc-icon" src="./img/Bitcoin.svg" alt="Bitcoin">
 
               <div class="transactions__sum">
-                <b>0.07 BTC</b>
+                0.07 BTC
               </div>
             </div>
           </div>
@@ -656,177 +606,50 @@
     </div>
   </div>
 </section>
-    <section class="faq">
+    <section class="news">
   <div class="container">
-    <div class="faq__inner">
-      <h3 class="faq__title">
-        <b>Frequently Asked Questions</b>
+    <div class="news__inner">
+      <h3 class="news__title">
+        News
       </h3>
 
-      <!-- Accordion -->
-      <div class="accordion">
-        <div class="accordion__item">
-          <div class="accordion__item-trigger">
-            <div class="trigger__text">
-              What is with my order? I get "No transaction found" error.
-            </div>
-            <div class="trigger__img">
-              <span class="line1"></span>
-              <span class="line2"></span>
-            </div>
-          </div>
-          <div class="accordion__item-content">
-            <div class="content__text">
-              The order is no longer available for viewing if the user changes their browser/cookie files or starts
-              using VPN. Users can always inquire about the order status in our live chat, we are available 24/7.
-            </div>
-          </div>
-        </div>
+      <ul class="news__list">
+        <li class="news__item">
+          <img class="news__item-img" src="./img/news/news-1.png" alt="news">
 
-        <div class="accordion__item">
-          <div class="accordion__item-trigger">
-            <div class="trigger__text">
-              My deposit is confirming for too long. Will the funds be exchanged eventually?
-            </div>
-            <div class="trigger__img">
-              <span class="line1"></span>
-              <span class="line2"></span>
-            </div>
-          </div>
-          <div class="accordion__item-content">
-            <div class="content__text">
-              The order is no longer available for viewing if the user changes their browser/cookie files or starts
-              using VPN. Users can always inquire about the order status in our live chat, we are available 24/7.
-            </div>
-          </div>
-        </div>
+          <div class="news__item-footer">
+            <p class="news__item-descr">
+              Crypto’s favorite bank is on the brink. What happens if Silvergate fails?
+            </p>
 
-        <div class="accordion__item">
-          <div class="accordion__item-trigger">
-            <div class="trigger__text">
-              Why isn't my ETH/ERC20 transaction sent yet? The block explorer says it's confirmed.
-            </div>
-            <div class="trigger__img">
-              <span class="line1"></span>
-              <span class="line2"></span>
-            </div>
+            <a class="news__item-read" href="#">Read Text</a>
           </div>
-          <div class="accordion__item-content">
-            <div class="content__text">
-              The order is no longer available for viewing if the user changes their browser/cookie files or starts
-              using VPN. Users can always inquire about the order status in our live chat, we are available 24/7.
-            </div>
-          </div>
-        </div>
+        </li>
 
-        <div class="accordion__item">
-          <div class="accordion__item-trigger">
-            <div class="trigger__text">
-              I have an issue with fiat purchase/selling crypto for fiat.
-            </div>
-            <div class="trigger__img">
-              <span class="line1"></span>
-              <span class="line2"></span>
-            </div>
-          </div>
-          <div class="accordion__item-content">
-            <div class="content__text">
-              The order is no longer available for viewing if the user changes their browser/cookie files or starts
-              using VPN. Users can always inquire about the order status in our live chat, we are available 24/7.
-            </div>
-          </div>
-        </div>
+        <li class="news__item">
+          <img class="news__item-img" src="./img/news/news-2.png" alt="news">
 
-        <div class="accordion__item">
-          <div class="accordion__item-trigger">
-            <div class="trigger__text">
-              Haven't received crypto to my account, FastSwap site says that my order is finished.
-            </div>
-            <div class="trigger__img">
-              <span class="line1"></span>
-              <span class="line2"></span>
-            </div>
-          </div>
-          <div class="accordion__item-content">
-            <div class="content__text">
-              The order is no longer available for viewing if the user changes their browser/cookie files or starts
-              using VPN. Users can always inquire about the order status in our live chat, we are available 24/7.
-            </div>
-          </div>
-        </div>
+          <div class="news__item-footer">
+            <p class="news__item-descr">
+              Silvergate suspends crypto payments network; shares fall after-hours
+            </p>
 
-        <div class="accordion__item">
-          <div class="accordion__item-trigger">
-            <div class="trigger__text">
-              What is memo/destination tag/message, why do I need it and where to find it?
-            </div>
-            <div class="trigger__img">
-              <span class="line1"></span>
-              <span class="line2"></span>
-            </div>
+            <a class="news__item-read" href="#">Read Text</a>
           </div>
-          <div class="accordion__item-content">
-            <div class="content__text">
-              The order is no longer available for viewing if the user changes their browser/cookie files or starts
-              using VPN. Users can always inquire about the order status in our live chat, we are available 24/7.
-            </div>
-          </div>
-        </div>
+        </li>
 
-        <div class="accordion__item">
-          <div class="accordion__item-trigger">
-            <div class="trigger__text">
-              What type of BNB do you support? BEP20 or BEP2?
-            </div>
-            <div class="trigger__img">
-              <span class="line1"></span>
-              <span class="line2"></span>
-            </div>
-          </div>
-          <div class="accordion__item-content">
-            <div class="content__text">
-              The order is no longer available for viewing if the user changes their browser/cookie files or starts
-              using VPN. Users can always inquire about the order status in our live chat, we are available 24/7.
-            </div>
-          </div>
-        </div>
+        <li class="news__item">
+          <img class="news__item-img" src="./img/news/news-3.png" alt="news">
 
-        <div class="accordion__item">
-          <div class="accordion__item-trigger">
-            <div class="trigger__text">
-              Do you support coins on Binance Smart Chain?
-            </div>
-            <div class="trigger__img">
-              <span class="line1"></span>
-              <span class="line2"></span>
-            </div>
-          </div>
-          <div class="accordion__item-content">
-            <div class="content__text">
-              The order is no longer available for viewing if the user changes their browser/cookie files or starts
-              using VPN. Users can always inquire about the order status in our live chat, we are available 24/7.
-            </div>
-          </div>
-        </div>
+          <div class="news__item-footer">
+            <p class="news__item-descr">
+              Coinbase Buys a Crypto Hedge Fund, Setting Its Sights on Institutional Clients
+            </p>
 
-        <div class="accordion__item">
-          <div class="accordion__item-trigger">
-            <div class="trigger__text">
-              How do I make a transfer to your wallet?
-            </div>
-            <div class="trigger__img">
-              <span class="line1"></span>
-              <span class="line2"></span>
-            </div>
+            <a class="news__item-read" href="#">Read Text</a>
           </div>
-          <div class="accordion__item-content">
-            <div class="content__text">
-              The order is no longer available for viewing if the user changes their browser/cookie files or starts
-              using VPN. Users can always inquire about the order status in our live chat, we are available 24/7.
-            </div>
-          </div>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
   </div>
 </section>
@@ -839,7 +662,7 @@
 
       <div class="footer__links">
         <a class="footer__logo" href="#">
-          <img class="footer__logo-img" src="./img/logo.svg" alt="logo">
+          <img class="footer__logo-img" src="./img/logo-footer.svg" alt="logo">
         </a>
 
         <div class="footer__socials">
@@ -848,31 +671,11 @@
           </a>
 
           <a class="footer__social" href="#">
-            <img class="footer__social-img" src="./img/footer/instagram.svg" alt="instagram">
-          </a>
-
-          <a class="footer__social" href="#">
-            <img class="footer__social-img" src="./img/footer/twitch.svg" alt="twitch">
-          </a>
-
-          <a class="footer__social" href="#">
             <img class="footer__social-img" src="./img/footer/twitter.svg" alt="twitter">
           </a>
 
           <a class="footer__social" href="#">
-            <img class="footer__social-img" src="./img/footer/telegram.svg" alt="telegram">
-          </a>
-
-          <a class="footer__social" href="#">
-            <img class="footer__social-img" src="./img/footer/weechat.svg" alt="weechat">
-          </a>
-
-          <a class="footer__social" href="#">
-            <img class="footer__social-img" src="./img/footer/linkedin.svg" alt="linkedin">
-          </a>
-
-          <a class="footer__social" href="#">
-            <img class="footer__social-img" src="./img/footer/youtube.svg" alt="youtube">
+            <img class="footer__social-img" src="./img/footer/instagram.svg" alt="instagram">
           </a>
         </div>
 
@@ -884,30 +687,28 @@
       <div class="footer__menus">
         <ul class="footer__menu">
           <li class="footer__item">
-            <h4 class="footer__menu-title">Company</h4>
+            <h4 class="footer__menu-title">FastSwap</h4>
           </li>
-          <li class="footer__item"><a class="footer__item-link" href="#">Swaper</a></li>
-          <li class="footer__item"><a class="footer__item-link" href="#">About Us</a></li>
-          <li class="footer__item"><a class="footer__item-link" href="#">Contact US</a></li>
-          <li class="footer__item"><a class="footer__item-link" href="#">Our Team</a></li>
-        </ul>
-        <ul class="footer__menu">
-          <li class="footer__item">
-            <h4 class="footer__menu-title">Resourses</h4>
-          </li>
-          <li class="footer__item"><a class="footer__item-link" href="#">Swaper</a></li>
-          <li class="footer__item"><a class="footer__item-link" href="#">BestChange</a></li>
-          <li class="footer__item"><a class="footer__item-link" href="#">Help Center</a></li>
+          <li class="footer__item"><a class="footer__item-link" href="#">About</a></li>
+          <li class="footer__item"><a class="footer__item-link" href="#">Our Brand</a></li>
           <li class="footer__item"><a class="footer__item-link" href="#">Partners</a></li>
+          <li class="footer__item"><a class="footer__item-link" href="#">Terms of Service</a></li>
         </ul>
         <ul class="footer__menu">
           <li class="footer__item">
-            <h4 class="footer__menu-title">Swap</h4>
+            <h4 class="footer__menu-title">Popular</h4>
           </li>
-          <li class="footer__item"><a class="footer__item-link" href="#">BTC</a></li>
-          <li class="footer__item"><a class="footer__item-link" href="#">USDT</a></li>
-          <li class="footer__item"><a class="footer__item-link" href="#">ETH</a></li>
-          <li class="footer__item"><a class="footer__item-link" href="#">Other</a></li>
+          <li class="footer__item"><a class="footer__item-link" href="#">Our Team</a></li>
+          <li class="footer__item"><a class="footer__item-link" href="#">Blog</a></li>
+          <li class="footer__item"><a class="footer__item-link" href="#">ETH to BTC</a></li>
+          <li class="footer__item"><a class="footer__item-link" href="#">BTC to USDT TRC20</a></li>
+        </ul>
+        <ul class="footer__menu">
+          <li class="footer__item">
+            <h4 class="footer__menu-title">Contact</h4>
+          </li>
+          <li class="footer__item"><a class="footer__item-link" href="#">2715 Ash Dr. San Jose, South Dakota 83475</a>
+          </li>
         </ul>
       </div>
     </div>

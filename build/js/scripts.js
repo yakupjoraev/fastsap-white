@@ -62,15 +62,26 @@ function sendSelect() {
     selectContain.addEventListener('click', () => {
       selectContain.classList.toggle('active')
     })
+
+    window.addEventListener('click', function (event) {
+      var target = event.target
+
+      if (!selectContain.contains(event.target)) {
+        selectContain.classList.remove('active')
+      }
+    })
   });
 
   selectOptions.forEach(selectOption => {
     selectOption.addEventListener('click', () => {
-      selectOption.classList('active');
-      selectContainer.classList.remove('active')
+      // selectOption.classList.add('active');
+      // selectContainer.classList.remove('active')
     })
   });
+
+
 }
+
 
 sendSelect();
 

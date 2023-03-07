@@ -1,0 +1,44 @@
+.start {
+  padding: 60px 0;
+
+  @media (max-width: $breakpoint768) {
+    padding: 30px 0;
+  }
+
+  // .start__inner
+
+  &__inner {}
+
+
+
+  // .start__logos
+
+  &__logos {
+    display: flex;
+    justify-content: center;
+    gap: 80px 160px;
+    flex-wrap: wrap;
+
+    @media (max-width: $breakpoint992) {
+      gap: 60px 80px;
+      margin-bottom: 50px;
+    }
+
+    @media (max-width: $breakpoint480) {
+      gap: 60px;
+    }
+  }
+
+  // .start__logo-link
+
+  &__logo-link {}
+
+  // .start__logo-img
+
+  &__logo-img {
+
+    @media (max-width: $breakpoint480) {
+      max-width: 100%;
+    }
+  }
+}

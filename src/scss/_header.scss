@@ -39,7 +39,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
-    color: rgba(0, 0, 0, 0.87);
+    color: var(--text-color);
     transition: color 0.2s linear;
 
     &::after {
@@ -49,7 +49,7 @@
       left: 0;
       width: 100%;
       height: 2px;
-      background-color: var(--primary-color);
+      background-color: #AF53FF;
       opacity: 0;
       transition: opacity 0.2s linear;
     }

@@ -13,12 +13,11 @@
   // .transactions__title
 
   &__title {
-    margin-bottom: 40px;
+    margin-bottom: 45px;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 34px;
     line-height: 37px;
-    text-align: center;
-    color: var(--primary-color);
+    color: var(--white-color);
 
     @media (max-width: $breakpoint480) {
       font-size: 24px;
@@ -47,8 +46,8 @@
     justify-content: space-between;
     padding: 11px 25px;
     background-color: var(--bg-card);
-    border: 1px solid var(--primary-color);
-    border-radius: 15px;
+    border: 1px solid #303241;
+    border-radius: 8px;
 
     @media (max-width: $breakpoint480) {
       flex-direction: column;
@@ -63,7 +62,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 17px;
-    color: rgba(0, 0, 0, 0.72);
+    color: rgba(255, 255, 255, 0.8);
   }
 
   // .transactions__info
