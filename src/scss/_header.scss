@@ -132,7 +132,7 @@
       position: absolute;
       height: 2px;
       width: 100%;
-      background: var(--primary-color);
+      background: $burgerActiveColor;
       transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
     }
 
@@ -149,7 +149,7 @@
       top: 9px;
       right: 0;
       width: 100%;
-      background: var(--primary-color);
+      background: $burgerActiveColor;
       height: 2px;
       transform: scale(1);
       transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
